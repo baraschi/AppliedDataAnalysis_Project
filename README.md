@@ -9,6 +9,7 @@ To summarize, we would like to show which countries have the best food habits an
 Today those questions are crucial because our generation is faced with environmental questions, such as how mass farming and a highly increasing population rate affect which foods we eat and how the health of the society is in danger due to the composition of our food.
 
 # Research questions
+- What kind of foods are considered to be healthy?
 - Where are the most sugary and fatty foods found?
 - Which food composition element is more directly linked with the pathologies we want to study?
 - Do populations which have more of such pathologies (diabetes & high cholesterol) consume a these types of food?
@@ -19,7 +20,7 @@ Today those questions are crucial because our generation is faced with environme
 List the dataset(s) you want to use, and some ideas on how do you expect to get, manage, process and enrich it/them. Show us you've read the docs and some examples, and you've a clear idea on what to expect. Discuss data size and format if relevant.
 Our main dataset will be the open foods facts database. The set contains 685395 items and 173 features, with about a quarter of the values representing european products. Since this is an openly participative dataset, we can expect a lot of items having few features entered (and thus a lot of NaN!)
 We also need to select the most relevant features for our research. 
-We would also like to link our findings to legitimate medical, such as diabetes rates per country, and environmental information , such as environmental friendly carbon footprints, found online. 
+We would also like to link our findings to legitimate medical, such as diabetes rates per country, environmental information , such as environmental friendly carbon footprints, and nutritional information, such as what constitutes a healthy food.
 
 # A list of internal milestones up until project milestone 2
 - Clean the data.
