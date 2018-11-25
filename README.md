@@ -14,9 +14,6 @@ Today those questions are crucial because our generation is faced with how the h
 - Is possible to clearly quantify the cholesterol levels (ask people working in medicine)?
 
 # Dataset
-List the dataset(s) you want to use, and some ideas on how do you expect to get, manage, process and enrich it/them. 
-Show us you've read the docs and some examples, and you've a clear idea on what to expect. Discuss data size and format if relevant.
-
 Our main dataset will be the open foods facts database. 
 The set contains 685395 items and 173 features, with about a quarter of the values representing european products. Since this is an openly participative dataset, we can expect a lot of items having few features entered (and thus a lot of NaN!)
 We also need to select the most relevant features for our research. 
@@ -26,6 +23,10 @@ Since we needed to pay for the WHO data, we found a website using some of their 
 The IDF data on diabetes was available freely.
 We also used a database that linked all countries to their alpha code, in different languages: 
 One problem we came up with during this milestone was that a food item could be sold in more than one country. Also, many countries were inputed in different languages, so we needed to find a way to group everything together - that's how the codes came in handy.
+
+[WHO](https://ourworldindata.org/obesity)
+[IDF](http://diabetesatlas.org/resources/2017-atlas.html)
+
 
 
 # A list of internal milestones up until project milestone 2
