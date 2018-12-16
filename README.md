@@ -32,11 +32,15 @@ In order to analyse our data more thoroughly, we also had to include alpha3 coun
 [IDF](http://diabetesatlas.org/resources/2017-atlas.html)
 [IHD](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3819990/)
 
-# Report for milestone 3: LaTeX report found in repository
+# Report for milestone 3
+LaTeX report found in repository
 
 # Workload separation
-Simon: Project description, data search, data clean, find way to group countries by code, code for world maps, write report
-Zoé: Data search, data cleaning, data analysis, plots, correlation tables, linear regression, code commenting, touch up report
+Simon: Project description, data search, data clean, find way to group countries by code, code for world maps, write report.
+
+Zoé: Data search/ cleaning/ analysis, plots, correlation tables, linear regression, code commenting, touch up report.
+
+Both will work on the presentation.
 
 # Internal milestones up until milestone 3
 - Find an additional illness to compare to
