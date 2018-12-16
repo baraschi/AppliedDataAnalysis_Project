@@ -1,4 +1,4 @@
-# Finding the toxic nutriments. 
+# What's in my food?
 
 # Abstract
 Our idea is to use the open food facts database to analyze the nutrition quality of countries by their food composition. 
