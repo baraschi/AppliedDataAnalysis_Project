@@ -33,7 +33,7 @@ In order to analyse our data more thoroughly, we also had to include alpha3 coun
 [IHD](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3819990/)
 
 # Report for milestone 3
-LaTeX report found in repository
+LaTeX report found in repository - report.pdf
 
 # Workload separation
 Simon: Project description, data search, data clean, find way to group countries by code, code for world maps, write report.
