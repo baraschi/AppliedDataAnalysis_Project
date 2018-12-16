@@ -32,17 +32,24 @@ In order to analyse our data more thoroughly, we also had to include alpha3 coun
 [IDF](http://diabetesatlas.org/resources/2017-atlas.html)
 [IHD](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3819990/)
 
+# Report for milestone 3: LaTeX report found in repository
 
-# A list of internal milestones up until project milestone 2
+# Workload separation
+Simon: Project description, data search, data clean, find way to group countries by code, code for world maps, write report
+Zoé: Data search, data cleaning, data analysis, plots, correlation tables, linear regression, code commenting, touch up report
+
+# Internal milestones up until milestone 3
+- Find an additional illness to compare to
+- Clean data
+- Create world map
+- Scatter plots, correlation, linear regression
+- Comment code
+- Write report
+
+# Internal milestones up until project milestone 2
 - Clean the data.
 - Choose relevant features. 
 - Reduce the dataset with only european countries.
 - Build dataset from medical information (from pdf)
 - Explore the dataset.
 - Analyze the data to try to answer our research questions (using graphs etc.)
-
-# Questions for TAs
-- Is it acceptable to work only with a part of the dataset? (European countries)
-- How do we ensure data coherence in a participative database, in which a lot of feature information may be missing?
-- Which medical and environmental databases are considered to be legitimate? 
-- Can we create a database from a pdf representing the data we want to use? 
