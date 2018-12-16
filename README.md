@@ -1,32 +1,36 @@
-# What's in your food?
+# Finding the toxic nutriments. 
 
 # Abstract
 Our idea is to use the open food facts database to analyze the nutrition quality of countries by their food composition. 
-We would like to try to link our results with societal pathologies such as diabetes or high cholesterol levels.
-With our findings, we would like to show which countries have the best food habits and whether the difference in the food contents make significant changes to the population health.
+We would like to try to link our results with societal pathologies such as diabetes, heart attacks or obesity.
+With our findings, we would like to show whether the difference in the food contents of different countries make significant changes to their population health.
 Today those questions are crucial because our generation is faced with how the health of the society is in danger due to the composition of our food.
 
 # Research questions
-- What kind of foods are considered to be healthy?
+- What's the average nutriment quantity per 100g?
 - Where are the most sugary and fatty foods found?
-- Which food composition element is more directly linked with the pathologies we want to study?
-- Do populations which have more of such pathologies (diabetes & high cholesterol) consume a these types of food?
+- Which food composition element is more directly linked with the pathologies we want to study? If at all?
+- Do populations which have more of such pathologies (diabetes & high cholesterol) consume these types of food?
 - Is possible to clearly quantify the cholesterol levels (ask people working in medicine)?
 
 # Dataset
 Our main dataset will be the open foods facts database. 
 The set contains 685395 items and 173 features, with about a quarter of the values representing european products. Since this is an openly participative dataset, we can expect a lot of items having few features entered (and thus a lot of NaN!)
 We also need to select the most relevant features for our research. 
-We would also like to link our findings to legitimate medical, such as diabetes rates per country, environmental information , such as environmental friendly carbon footprints, and nutritional information, such as what constitutes a healthy food.
+We would also like to link our findings to legitimate medical, such as diabetes rates per country, and nutritionalinformation, such as what constitutes a healthy food.
 Up until milestone 2, we have used data from the world health organization as well as the international diabetes federation. 
 Since we needed to pay for the WHO data, we found a website using some of their data that we could download for free. 
 The IDF data on diabetes was available freely.
 We also used a database that linked all countries to their alpha code, in different languages: 
-One problem we came up with during this milestone was that a food item could be sold in more than one country. Also, many countries were inputed in different languages, so we needed to find a way to group everything together - that's how the codes came in handy.
+One problem we came up with during this milestone was that a food item could be sold in more than one country. 
+Also, many countries were inputed in different languages, so we needed to find a way to group everything together - that's how the codes came in handy.
+In Milestone 3 we added some data about heart attacks. 
+We also needed to find some json data to outline countries on a world map. 
+In order to analyse our data more thoroughly, we also had to include alpha3 country codes and continent codes. 
 
 [WHO](https://ourworldindata.org/obesity)
 [IDF](http://diabetesatlas.org/resources/2017-atlas.html)
-
+[IHD](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3819990/)
 
 
 # A list of internal milestones up until project milestone 2
@@ -37,7 +41,7 @@ One problem we came up with during this milestone was that a food item could be 
 - Explore the dataset.
 - Analyze the data to try to answer our research questions (using graphs etc.)
 
-# Questions for TAa
+# Questions for TAs
 - Is it acceptable to work only with a part of the dataset? (European countries)
 - How do we ensure data coherence in a participative database, in which a lot of feature information may be missing?
 - Which medical and environmental databases are considered to be legitimate? 
